@@ -11,3 +11,4 @@ call plug#end()
 
 " Extensions configuration
 source /root/.config/nvim/gruvbox/gruvbox.vim
+source /root/.config/nvim/nvim-lsp-clangd-highlight/nvim-lsp-clangd-highlight.vim

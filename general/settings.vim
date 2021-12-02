@@ -1,10 +1,3 @@
-" General settings for Neovim out of the box.
-"
-" @author Maciej Bedra
-
-" Set leader key
-let g:mapleader = "\<Space>"
-
 " Enable syntax highlighting
 syntax enable
 
@@ -99,9 +92,6 @@ set updatetime=300
 
 " Short timeout
 set timeoutlen=500
-
-" Stop new line comment continuation
-set formatoptions-=cro 
 
 " Shared clipboard
 set clipboard=unnamedplus

@@ -1,3 +1,5 @@
+" Reference: https://github.com/adam-wolski/nvim-lsp-clangd-highlight
+
 " Setup clangd highlighting
 lua << EOF
 local nvim_lsp_clangd_highlight = require'nvim-lsp-clangd-highlight'

@@ -1,3 +1,6 @@
+" Set leader key
+let g:mapleader = "g"
+
 " Enable syntax highlighting
 syntax enable
 

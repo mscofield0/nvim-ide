@@ -1,11 +1,3 @@
-" Key binding for Neovim out of the box.
-"
-" @author Maciej Bedra
-
-" More handy insert mode exit
-inoremap jk <Esc>
-inoremap kj <Esc>
-
 " Navigation between splits
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -25,6 +17,3 @@ nnoremap <S-TAB> :tabprevious<CR>
 " Completion
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
-" More handy line 'tabbing'
-vnoremap < <gv
-vnoremap > >gv

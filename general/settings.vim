@@ -60,7 +60,7 @@ set smartindent
 set autoindent
 
 " Status line
-set laststatus=0
+set laststatus=1
 
 " Line numbers
 set number relativenumber

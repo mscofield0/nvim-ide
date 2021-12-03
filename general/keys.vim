@@ -17,3 +17,10 @@ nnoremap <S-TAB> :tabprevious<CR>
 " Completion
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" Save file
+inoremap <C-s> :w<CR>
+nnoremap <C-s> <ESC>:w<CR>
+
+" Refresh Neovim
+nnoremap <leader>sv :source $MYVIMRC<CR>
+

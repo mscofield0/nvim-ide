@@ -8,7 +8,7 @@ let $FZF_DEFAULT_OPTS = '--reverse'
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.6 } }
 
 " Key binding used to launch fuzzy finder (file search)
-nnoremap <C-f>f :FZF<CR>
+nnoremap f<C-f> :FZF<CR>
 
 " Key binding used to launch fuzzy finder (text occurrence)
 nnoremap <C-f> :Rg<CR>

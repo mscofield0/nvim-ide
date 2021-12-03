@@ -9,7 +9,7 @@ call plug#begin('/root/.config/nvim/plugins')
   Plug 'adam-wolski/nvim-lsp-clangd-highlight'
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'junegunn/fzf'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'mfussenegger/nvim-dap'
   Plug 'kdheepak/lazygit.nvim'
@@ -17,6 +17,7 @@ call plug#begin('/root/.config/nvim/plugins')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'mbbill/undotree'
+  Plug 'karb94/neoscroll.nvim'
 call plug#end()
 
 " ========== Extensions configuration
@@ -31,3 +32,5 @@ source /root/.config/nvim/lazygit/lazygit.vim
 source /root/.config/nvim/neoformat/neoformat.vim
 source /root/.config/nvim/airline/airline.vim
 source /root/.config/nvim/undotree/undotree.vim
+source /root/.config/nvim/neoscroll/neoscroll.vim
+source /root/.config/nvim/fzf/fzf.vim

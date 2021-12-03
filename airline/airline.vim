@@ -2,7 +2,7 @@
 "            https://github.com/vim-airline/vim-airline-themes
 
 " Status bar theme
-let g:airline_theme = 'minimalist'
+let g:airline_theme = 'base16_gruvbox_dark_hard'
 
 " No empty sections
 let g:airline_skip_empty_sections = 1

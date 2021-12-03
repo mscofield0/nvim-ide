@@ -18,6 +18,7 @@ call plug#begin('/root/.config/nvim/plugins')
   Plug 'vim-airline/vim-airline-themes'
   Plug 'mbbill/undotree'
   Plug 'karb94/neoscroll.nvim'
+  Plug 'romgrk/barbar.nvim'
 call plug#end()
 
 " ========== Extensions configuration
@@ -34,3 +35,4 @@ source /root/.config/nvim/airline/airline.vim
 source /root/.config/nvim/undotree/undotree.vim
 source /root/.config/nvim/neoscroll/neoscroll.vim
 source /root/.config/nvim/fzf/fzf.vim
+source /root/.config/nvim/barbar/barbar.vim

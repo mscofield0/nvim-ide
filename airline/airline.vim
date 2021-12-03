@@ -37,3 +37,6 @@ let g:airline_right_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+" Extensions
+let g:airline#extensions#tabline#enabled = 1

@@ -18,7 +18,9 @@ call plug#begin('/root/.config/nvim/plugins')
   Plug 'vim-airline/vim-airline-themes'
   Plug 'mbbill/undotree'
   Plug 'karb94/neoscroll.nvim'
+  Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
+  Plug 'f-person/git-blame.nvim'
 call plug#end()
 
 " ========== Extensions configuration
@@ -36,3 +38,4 @@ source /root/.config/nvim/undotree/undotree.vim
 source /root/.config/nvim/neoscroll/neoscroll.vim
 source /root/.config/nvim/fzf/fzf.vim
 source /root/.config/nvim/barbar/barbar.vim
+source /root/.config/nvim/git-blame/git-blame.vim

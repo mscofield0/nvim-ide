@@ -21,6 +21,7 @@ call plug#begin('/root/.config/nvim/plugins')
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
   Plug 'f-person/git-blame.nvim'
+  Plug 'rcarriga/nvim-dap-ui'
 call plug#end()
 
 " ========== Extensions configuration

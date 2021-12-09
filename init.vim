@@ -25,18 +25,18 @@ call plug#begin('/root/.config/nvim/plugins')
 call plug#end()
 
 " ========== Extensions configuration
-source /root/.config/nvim/gruvbox/gruvbox.vim
-source /root/.config/nvim/nvim-lsp-clangd-highlight/nvim-lsp-clangd-highlight.vim
-source /root/.config/nvim/nerdtree/nerdtree.vim
-source /root/.config/nvim/nerdtree/nerdtree-git.vim
-source /root/.config/nvim/nvim-dap/nvim-dap.vim
-source /root/.config/nvim/nvim-dap/nvim-dap-adapter.vim
-source /root/.config/nvim/nvim-dap/nvim-dap-config.vim
-source /root/.config/nvim/lazygit/lazygit.vim
-source /root/.config/nvim/neoformat/neoformat.vim
-source /root/.config/nvim/airline/airline.vim
-source /root/.config/nvim/undotree/undotree.vim
-source /root/.config/nvim/neoscroll/neoscroll.vim
-source /root/.config/nvim/fzf/fzf.vim
-source /root/.config/nvim/barbar/barbar.vim
-source /root/.config/nvim/git-blame/git-blame.vim
+source $HOME/.config/nvim/gruvbox/gruvbox.vim
+source $HOME/.config/nvim/nvim-lsp-clangd-highlight/nvim-lsp-clangd-highlight.vim
+source $HOME/.config/nvim/nerdtree/nerdtree.vim
+source $HOME/.config/nvim/nerdtree/nerdtree-git.vim
+source $HOME/.config/nvim/nvim-dap/nvim-dap.vim
+source $HOME/.config/nvim/nvim-dap/nvim-dap-adapter.vim
+source $HOME/.config/nvim/nvim-dap/nvim-dap-config.vim
+source $HOME/.config/nvim/lazygit/lazygit.vim
+source $HOME/.config/nvim/neoformat/neoformat.vim
+source $HOME/.config/nvim/airline/airline.vim
+source $HOME/.config/nvim/undotree/undotree.vim
+source $HOME/.config/nvim/neoscroll/neoscroll.vim
+source $HOME/.config/nvim/fzf/fzf.vim
+source $HOME/.config/nvim/barbar/barbar.vim
+source $HOME/.config/nvim/git-blame/git-blame.vim

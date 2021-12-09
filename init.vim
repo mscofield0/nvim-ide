@@ -1,9 +1,9 @@
 " ========== Configuration for Neovim out of the box
-source /root/.config/nvim/general/settings.vim
-source /root/.config/nvim/general/keys.vim
+source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/general/keys.vim
 
 " ========== Neovim extensions
-call plug#begin('/root/.config/nvim/plugins')
+call plug#begin('$HOME/.config/nvim/plugins')
   Plug 'morhetz/gruvbox'
   Plug 'neovim/nvim-lsp'
   Plug 'adam-wolski/nvim-lsp-clangd-highlight'

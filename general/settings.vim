@@ -42,10 +42,10 @@ set t_Co=256
 set conceallevel=0
 
 " 2 Spaces for TAB
-set tabstop=2
+set tabstop=4
 
 " 2 Spaces for indention
-set shiftwidth=2
+set shiftwidth=4
 
 " Smart TAB's
 set smarttab
@@ -102,3 +102,7 @@ set clipboard=unnamedplus
 " Auto source while writing to init.vim
 au! BufWritePost $MYVIMRC source %      
 cmap w!! w !sudo tee %
+
+" Set termguicolors
+set termguicolors
+

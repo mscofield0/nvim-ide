@@ -5,8 +5,6 @@ source $HOME/.config/nvim/general/keys.vim
 " ========== Neovim extensions
 call plug#begin('$HOME/.config/nvim/plugins')
   Plug 'morhetz/gruvbox'
-  Plug 'neovim/nvim-lsp'
-  Plug 'adam-wolski/nvim-lsp-clangd-highlight'
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -22,11 +20,14 @@ call plug#begin('$HOME/.config/nvim/plugins')
   Plug 'romgrk/barbar.nvim'
   Plug 'f-person/git-blame.nvim'
   Plug 'rcarriga/nvim-dap-ui'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'norcalli/nvim-colorizer.lua'
+  Plug 'justinmk/vim-sneak'
 call plug#end()
 
 " ========== Extensions configuration
 source $HOME/.config/nvim/gruvbox/gruvbox.vim
-source $HOME/.config/nvim/nvim-lsp-clangd-highlight/nvim-lsp-clangd-highlight.vim
 source $HOME/.config/nvim/nerdtree/nerdtree.vim
 source $HOME/.config/nvim/nerdtree/nerdtree-git.vim
 source $HOME/.config/nvim/nvim-dap/nvim-dap.vim
@@ -40,3 +41,7 @@ source $HOME/.config/nvim/neoscroll/neoscroll.vim
 source $HOME/.config/nvim/fzf/fzf.vim
 source $HOME/.config/nvim/barbar/barbar.vim
 source $HOME/.config/nvim/git-blame/git-blame.vim
+source $HOME/.config/nvim/coc/coc.vim
+source $HOME/.config/nvim/colorizer/colorizer.vim
+source $HOME/.config/nvim/treesitter/treesitter.vim
+

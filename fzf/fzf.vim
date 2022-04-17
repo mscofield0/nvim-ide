@@ -14,7 +14,7 @@ nnoremap f<C-f> :FZF<CR>
 nnoremap <C-f> :Rg<CR>
 
 " Key binding used to launch fuzzy finder in multiple files
-nnoremap af<C-f> :RG<CR>
+nnoremap a<C-f> :RG<CR>
 
 " Enable per-command history
 " - History files will be stored in the specified directory
